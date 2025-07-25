@@ -46,7 +46,7 @@ def embed_query(query):
 def retrieve_relevant_chunks(query, chunk_embeddings, chunks, top_k=5):
     query_embedding = embed_query(query)
     similarities = cosine_similarity([query_embedding], chunk_embeddings)[0]
-    sorted_indices = np.argsort(similarities)[::-1][:top_k]
+    sorted_indices = np.argsort(similarities)[-top_k:][::-1]
     return [chunks[i] for i in sorted_indices]
     
    

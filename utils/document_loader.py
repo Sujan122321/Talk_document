@@ -2,7 +2,7 @@ import fitz
 from docx import Document
 
 def load_pdf(file):
-    doc = fitz.open(stream=file.read(),filetyp='pdf')
+    doc = fitz.open(stream=file.read(),filetype='pdf')
     text = ""
     for page in doc:
         text += page.get_text()
