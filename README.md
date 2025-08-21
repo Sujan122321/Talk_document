@@ -136,4 +136,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions, suggestions, or support, please
+For questions, suggestions, or support, please contact:
+
+- **Email:** [suzanstha203@gmail.com]
