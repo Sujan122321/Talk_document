@@ -1,4 +1,4 @@
-# Talk_document# Talk_document
+# Talk_document
 
 Talk_document is an AI-powered application designed to enable users to interact with documents using natural language queries. The project leverages advanced language models to extract information, summarize content, and answer questions based on uploaded documents.
 
@@ -96,22 +96,23 @@ Talk_document/
 │   ├── document_loader.py  # Handles loading and parsing of documents
 │   ├── text_embedder.py    # Embeds text for semantic search and analysis
 │   └── vector_store.py     # Manages vector storage for efficient querying
----
+```
 
 - **app.py**: The main script to launch the application.
 - **requirements.txt**: Lists all required Python packages.
 - **README.md**: Documentation and usage instructions.
 - **utils/**: Contains helper modules for document loading, embedding, and vector storage.
 
+---
 
 ## Technologies Used
 
-- **RAG (Retrieval-Augmented Generation):** Combines document retrieval with generative AI for accurate responses.
+- **RAG (Retrieval-Augmented Generation):** Combines document retrieval with generative AI for accurate and context-aware responses.
 - **Vector Database:** Stores and searches document embeddings for efficient semantic querying.
 - **Gemini API Key:** Integrates Gemini language models for advanced natural language processing.
-- **Streamlit:** Provides an interactive and user-friendly web interface for
+- **Streamlit:** Provides an interactive and user-friendly web interface for document interaction.
 
-
+---
 
 ## Contributing
 
@@ -135,6 +136,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions, suggestions, or support, please contact:
-
-- **Email:** [suzanstha203@gmail.com]
+For questions, suggestions, or support, please
